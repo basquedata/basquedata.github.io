@@ -5,10 +5,9 @@ branches:
   only:
   - source
 rvm:
-- 2.2.3
+- 2.2.5
 # set execution permission on our build script
 before_script:
- - gem install bundle
  - chmod +x ./script/cibuild
 # path to our build script. 
 # Travis will run `bundle install` by default before running our script
