@@ -3,7 +3,7 @@ language: ruby
 
 branches:
   only:
-  - master
+  - source
 rvm:
 - 2.2.3
 # set execution permission on our build script
